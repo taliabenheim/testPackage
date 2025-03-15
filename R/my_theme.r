@@ -9,8 +9,6 @@
 #'  ggplot(aes(x = Sepal.Length, y = Sepal.Width)) +
 #'  geom_point() +
 #'  my_theme()
-usethis::use_package("ggplot2")
-
 my_theme <- function() {
   ggplot2::theme_bw() +
     ggplot2::theme(
